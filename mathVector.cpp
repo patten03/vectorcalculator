@@ -54,7 +54,7 @@ const
     res += this->y * this->y;
     res += this->z * this->z;
 
-    return res;
+    return sqrt(res);
 }
 
 // Операция определния косинуса между векторами
