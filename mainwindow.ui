@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>887</width>
-    <height>287</height>
+    <width>1019</width>
+    <height>337</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -72,6 +72,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -87,6 +90,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -104,6 +110,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -119,6 +128,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -136,6 +148,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -152,6 +167,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
            </layout>
@@ -166,6 +184,12 @@
                 <verstretch>30</verstretch>
                </sizepolicy>
               </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="font">
                <font>
                 <pointsize>14</pointsize>
@@ -177,6 +201,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -186,6 +213,12 @@
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
               </property>
               <property name="font">
                <font>
@@ -211,6 +244,12 @@
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="font">
                <font>
                 <pointsize>14</pointsize>
@@ -231,7 +270,7 @@
              <widget class="QLabel" name="sum_x">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -245,6 +284,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -252,7 +294,7 @@
              <widget class="QLabel" name="diff_x">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -266,6 +308,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -273,7 +318,7 @@
              <widget class="QLabel" name="mul_x">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -287,6 +332,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -302,6 +350,12 @@
                 <verstretch>30</verstretch>
                </sizepolicy>
               </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="font">
                <font>
                 <pointsize>14</pointsize>
@@ -313,6 +367,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -322,6 +379,12 @@
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
               </property>
               <property name="font">
                <font>
@@ -347,6 +410,12 @@
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="font">
                <font>
                 <pointsize>14</pointsize>
@@ -367,7 +436,7 @@
              <widget class="QLabel" name="sum_y">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -381,6 +450,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -388,7 +460,7 @@
              <widget class="QLabel" name="diff_y">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -402,6 +474,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -409,7 +484,7 @@
              <widget class="QLabel" name="mul_y">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -423,6 +498,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -438,6 +516,12 @@
                 <verstretch>30</verstretch>
                </sizepolicy>
               </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="font">
                <font>
                 <pointsize>14</pointsize>
@@ -449,6 +533,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -458,6 +545,12 @@
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
               </property>
               <property name="font">
                <font>
@@ -483,6 +576,12 @@
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="minimumSize">
+               <size>
+                <width>180</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="font">
                <font>
                 <pointsize>14</pointsize>
@@ -503,7 +602,7 @@
              <widget class="QLabel" name="sum_z">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -517,6 +616,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -524,7 +626,7 @@
              <widget class="QLabel" name="diff_z">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -538,6 +640,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -545,7 +650,7 @@
              <widget class="QLabel" name="mul_z">
               <property name="minimumSize">
                <size>
-                <width>150</width>
+                <width>180</width>
                 <height>0</height>
                </size>
               </property>
@@ -559,6 +664,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -597,6 +705,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -612,6 +723,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -629,6 +743,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -645,6 +762,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -660,6 +780,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -686,6 +809,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -706,6 +832,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -728,6 +857,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -749,6 +881,9 @@
               <property name="alignment">
                <set>Qt::AlignCenter</set>
               </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+              </property>
              </widget>
             </item>
             <item>
@@ -769,6 +904,9 @@
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -799,8 +937,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>887</width>
-     <height>21</height>
+     <width>1019</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
