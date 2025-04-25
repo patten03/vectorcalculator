@@ -1,7 +1,7 @@
 #include "mathVector.h"
 
 
-//Операция сложения
+// Операция сложения
 MathVector MathVector::operator+(MathVector const& obj)
 {
     MathVector res;

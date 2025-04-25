@@ -80,3 +80,10 @@ CMakeLists.txt.user*
 .rcc/
 .uic/
 /build*/
+
+# Users preference
+/.qtc_clangd
+/debug
+/release
+.qmake.stash
+.

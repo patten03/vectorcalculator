@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "progRes.h"
 
+// Ограничение на количество знаков после запятой
 const unsigned short prec = 3;
 
 MainWindow::MainWindow(QWidget *parent)
@@ -15,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Установка ограничения на ввод только значений с плавующей точкой от -999999.999 до 999999.999
     QRegularExpression regex("^(-)?([0-9]{1,4})(\\.[0-9]{1," + QString::number(prec) + "})?$");
     QRegularExpressionValidator *validator = new QRegularExpressionValidator(regex, this);
+    // Установка ограничений для координат x y z для векторов A и B
     ui->a_x->setValidator(validator);
     ui->a_y->setValidator(validator);
     ui->a_z->setValidator(validator);
@@ -31,6 +33,7 @@ MainWindow::~MainWindow()
 // Вычисление данных по нажатие клавиши
 void MainWindow::on_calculate_clicked()
 {
+    // Структура для хранения результатов вычислений
     Calculations Calc;
     // Считывание данных от пользователя
     Calc.A.x = ui->a_x->text().toDouble();

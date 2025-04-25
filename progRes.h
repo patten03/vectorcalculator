@@ -6,9 +6,17 @@
 // Структура для хранения вводимых данных пользователем и резульатов вычислений
 struct Calculations
 {
-    MathVector A, B;
-    MathVector Sum, Diff, CrossProd;
-    float cosinus, angle, sumLength, diffLength, dotProd;
+    MathVector A, B; // Векторы A и B
+    MathVector       // Векторы суммы, разности и вектороного произведения
+        Sum,
+        Diff,
+        CrossProd;
+    float
+        cosinus,     // значения косинуса
+        angle,       // значение угла между векторами
+        sumLength,   // длина вектора суммы
+        diffLength,  // длина вектора разности
+        dotProd;     // значение скалярного произведения
 
     Calculations();
 };
